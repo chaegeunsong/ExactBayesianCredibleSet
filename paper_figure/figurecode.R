@@ -283,8 +283,3 @@ plot(x, data, type = 'h',
 abline(h=gamma, lty=3, col=gammacol, lwd=3)
 mtext(expression(gamma), side=4, line=0.8, at=gamma,
       cex=2, col=gammacol, las = 1)
-
-
-# 10*(0.2^2)*(0.8^3)
-# 30/93
-
