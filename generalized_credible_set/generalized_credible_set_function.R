@@ -455,3 +455,4 @@ draw.circles <- function(x,y,ir=0.07,cex=1, border=NULL, col=NA){
     draw.circle(x[i],y[i],radius = ir*cex, border = border, col=col)  
   }
 }
+
