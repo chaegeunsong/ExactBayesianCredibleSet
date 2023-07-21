@@ -13,9 +13,8 @@ library(mvtnorm)
 ## .-------------------------------------------  ####
 ## .-------------------------------------------  ####
 
-#setwd('/Users/chaegeunsong/GitHub/credible-set')
 ## load the data
-data <- read.csv('/Users/chaegeunsong/GitHub/credible-set/data/speakeraccent/accent-mfcc-data-1.csv',
+data <- read.csv('../data/speakeraccent/accent-mfcc-data-1.csv',
                  header = TRUE)
 str(data) 
 table(data$language)
@@ -314,7 +313,6 @@ flowerplot2d(predy,(1:n)[v==5][n5],arrange_phi_vec,r=0.3,
              'orange',arrange_colorset, cex=1.25, ir=0.06)
 flowerplot2d(predy,(1:n)[v==6][n6],arrange_phi_vec,r=0.3,
              'purple',arrange_colorset, cex=1.25, ir=0.06)
-dev.off()
 dev.off()
 # # Add a legend
 # legend('topleft', 

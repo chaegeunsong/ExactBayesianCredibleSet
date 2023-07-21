@@ -13,9 +13,8 @@ library(mvtnorm)
 ## .-------------------------------------------  ####
 ## .-------------------------------------------  ####
 
-#setwd('/Users/chaegeunsong/GitHub/credible-set')
 ## load the data
-data <- read.csv('/Users/chaegeunsong/GitHub/credible-set/data/speakeraccent/accent-mfcc-data-1.csv',
+data <- read.csv('../data/speakeraccent/accent-mfcc-data-1.csv',
                  header = TRUE)
 str(data) 
 table(data$language)
